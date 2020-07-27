@@ -7,9 +7,9 @@ import { Calendar } from "react-feather"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import { Row, Col } from "../components/shortcodes/index"
-import { PortfolioQuery } from "./__generated__/PortfolioQuery"
+import { portfolioQuery } from "./__generated__/portfolioQuery"
 
-export default function porfolio ({ location, data }: PageProps<PortfolioQuery, {}>) {
+export default function porfolio ({ location, data }: PageProps<portfolioQuery, {}>) {
     return (
         <Layout
             seo={{
@@ -55,7 +55,7 @@ export default function porfolio ({ location, data }: PageProps<PortfolioQuery, 
 }
 
 export const query = graphql`
-    query PortfolioQuery($slug: String!) {
+    query portfolioQuery($slug: String!) {
         mdx(fields: { slug: { eq: $slug } }) {
             body
             frontmatter {

@@ -63,7 +63,7 @@ const siteMetadata = {
             url: "/blog"
         },
         {
-            name: "PORTFOLIO",
+            name: "portfolio",
             url: "/portfolio"
         },
         {
@@ -144,7 +144,7 @@ description: The description shown in the listing page. Also used for SEO descri
 ---
 ```
 
-Portfolio pages support the creation of grids.
+portfolio pages support the creation of grids.
 
 To create a grid, follow the below structure
 

@@ -94,16 +94,16 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions 
         const portfolioItems = result.data.portfolio.edges
         const portfolioItemsPerPage =
             result.data.limitPost.siteMetadata.portfolioItemsPerPage
-        const numPortfolioItems = Math.ceil(portfolioItems.length / portfolioItemsPerPage)
+        const numportfolioItems = Math.ceil(portfolioItems.length / portfolioItemsPerPage)
 
-        Array.from({ length: numPortfolioItems }).forEach((_, i) => {
+        Array.from({ length: numportfolioItems }).forEach((_, i) => {
             createPage({
                 path: i === 0 ? `/portfolio` : `/portfolio/${i + 1}`,
                 component: path.resolve("./src/templates/portfolio-list.tsx"),
                 context: {
                     limit: portfolioItemsPerPage,
                     skip: i * portfolioItemsPerPage,
-                    numPages: numPortfolioItems,
+                    numPages: numportfolioItems,
                     currentPage: i + 1,
                 },
             })

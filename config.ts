@@ -1,18 +1,18 @@
 const siteMetadata = {
-    title: `Elemental`,
+    title: `INTERGALACTIC RAILROAD`,
     siteUrl: `http://localhost`,
-    capitalizeTitleOnHome: false,
+    capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
-    icon: `/images/icon.png`,
-    titleImage: `/images/wall.png`,
-    ogImage: `/images/wall.png`,
+    icon: `/images/logo.png`,
+    titleImage: `/images/logo.png`,
+    ogImage: `/images/logo.png`,
     twoColumnWall: true,
     cookiePolicy: true,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+    introTag: `fake news from outer space`,
+    description: `INTERGALACTIC RAILROAD appears to be a series of samizdat audio recordings made during the collapse of the USA.`,
     about:
-        "Cras accumsan a lectus at tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus elementum dapibus dictum. Mauris auctor quam nec est tincidunt hendrerit. Donec pulvinar lobortis mauris. Cras vulputate ullamcorper ligula a rhoncus. Nunc venenatis elementum ligula in semper. Mauris malesuada purus nunc, et ultricies leo aliquam ac. Ut sit amet nunc id magna accumsan hendrerit in eget metus.",
-    author: `@_akzhy`,
+        "INTERGALACTIC RAILROAD is your premier news source for post-nuclear moonscape America.",
+    author: `@biocosmopolitan`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -51,24 +51,14 @@ const siteMetadata = {
     ],
     social: [
         {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "#",
-        },
-        {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#",
-        },
-        {
-            name: "Instagram",
-            icon: "/images/Instagram.svg",
-            url: "#",
+            url: "https://twitter.com/biocosmopolitan",
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "#",
+            url: "https://youtube.com/biocosmopolitan",
         },
     ],
     contact: {
@@ -79,7 +69,7 @@ const siteMetadata = {
         phone: "000-000-0000",
         address: "1234 \nLocation \nLocation",
     },
-    disqus: "elemental-netlify-com",
+    disqus: " ",
 }
 
 const beforeContactFormSubmit = data => {
