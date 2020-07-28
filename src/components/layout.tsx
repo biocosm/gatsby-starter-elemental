@@ -87,9 +87,10 @@ export default ({ children, front, seo, navPlaceholder=true, location }: LayoutP
                     {children}
                     <Footer />
                 </div>
-                {
+{/*                {
                     (query.site.siteMetadata.cookiePolicy && !cookieShown) && <CookieBox onChange={onCookieAccept}/>
                 }
+*/}
             </div>
         </React.Fragment>
     )

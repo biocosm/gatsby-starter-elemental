@@ -23,32 +23,32 @@ module.exports = {
         }),
         themes: {
             dark: {
-                bg: "#111",
-                bgalt: "#000",
+                bg: "#141C1B",
+                bgalt: "#141C1B",
                 "color-default": "#eee",
-                "color-1": "#c35fde",
-                "color-2": "#adbfef",
-                border: "#718096",
-                primary: "#f55555",
-                medium: "#222"
+                "color-2": "#389FCB",
+                "color-1": "#11AD99",
+                border: "#6484AB",
+                primary: "#FF5A5F",
+                medium: "#141C1B"
             },
         },
         colors: {
-            bg: "#fff",
+            bg: "#f5f5f5",
             bgalt: "#f5f5f5",
             "color-default": "#333",
-            "color-1": "#8e24aa",
-            "color-2": "#673ab7",
+            "color-1": "#3c549c",
+            "color-2": "#535073",
             "color-3": "#aeb4c5",
-            primary: "#f55555",
-            secondary: "#6888df",
-            link: "#0a71c5",
+            primary: "#FF5A5F",
+            secondary: "#6484AB",
+            link: "#389FCB",
             medium: "#cfd8dc",
-            white: "#fff",
-            black: "#000",
+            white: "#f5f5f5",
+            black: "#141C1B",
             transparent: "rgba(0,0,0,0)",
             error: "#ef5350",
-            success: "#8bc34a"
+            success: "#6c9c54"
         },
         extend: {
             fontSize: {
@@ -63,5 +63,3 @@ module.exports = {
     variants: {},
     plugins: [require(`tailwind-theme-switcher`), gradient],
 }
-
-

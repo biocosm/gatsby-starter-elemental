@@ -37,6 +37,12 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
             navPlaceholder={false}
             location={location}
         >
+            <div className="video-container">
+              <video id="hero" width="100%" controls autoplay>
+                 <source src="images/promo.mp4" type="video/mp4" />
+                 Your browser does not support the video tag.
+              </video>
+            </div>
             <Wall data={siteData} />
             {siteData.about !== "" && <About data={siteData.about} />}
             <div className="px-4 lg:px-0" id="portfolio">
@@ -75,6 +81,9 @@ const Wall = ({ data }) => {
     if (!twoColumnWall && data.titleImage) {
         spanAttrs.style = {
             backgroundImage: `url('${data.titleImage}')`,
+            backgroundRepeat: 'no-repeat',
+            backgroundAttachment: 'fixed',
+            backgroundSize: 'cover'
         }
 
     }
@@ -97,7 +106,7 @@ const Wall = ({ data }) => {
             <p className="text-base lg:text-lg mt-4">{data.description}</p>
             <ScrollIntoView selector="#portfolio">
                 <Button
-                    title="SEE WORKS"
+                    title="HEAR MORE"
                     type="button"
                     iconRight={<ArrowRight />}
                 />

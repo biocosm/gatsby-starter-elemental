@@ -55,6 +55,12 @@ const plugins = [
           ],
         },
       },
+      {
+        resolve: 'gatsby-source-rss',
+        options: {
+                rssURL: 'https://pinecast.com/feed/igrr'
+        },
+      },
 ]
 
 if (siteMetadata.disqus) {

@@ -3,7 +3,7 @@
 @import "tailwindcss/components";
 
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: "monospace", sans-serif;
 }
 
 p {
@@ -283,6 +283,17 @@ p {
 
 .spin {
     animation: spin 1s infinite linear;
+}
+
+.video-container{
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 100vh;
+}
+
+#hero{
+  margin-bottom: 200px;
 }
 
 @keyframes spin {

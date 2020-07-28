@@ -4,14 +4,14 @@ const siteMetadata = {
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
     icon: `/images/logo.png`,
-    titleImage: `/images/logo.png`,
+    titleImage: `/images/thewingsofth.jpg`,
     ogImage: `/images/logo.png`,
-    twoColumnWall: true,
+    twoColumnWall: false,
     cookiePolicy: true,
-    introTag: `fake news from outer space`,
-    description: `INTERGALACTIC RAILROAD appears to be a series of samizdat audio recordings made during the collapse of the USA.`,
+    introTag: `FAKE NEWS FROM OUTER SPACE`,
+    description: `INTERGALACTIC RAILROAD appears to be a series of samizdat audio recordings made during the collapse of the USA. A darkly comic investigation of the accelerating catastrophes of the 21st century.`,
     about:
-        "INTERGALACTIC RAILROAD is your premier news source for post-nuclear moonscape America.",
+        "INTERGALACTIC RAILROAD is the official podcast of the Biocosmist Immortalists, the Anarchist Space Program, the Slime Accelerationists, the Blue-Green Environmentalists, the Fully Automated Luxury Gay Space Platform Communists, the Cybernetic Occultists, the Federated Hustle Syndicate, the Green Zone Terraforming and Ecological Services Co-operative, the Unarmed Corps of Genetic Engineers, the NFL-CIA, the People's Bureau of Interplanetary Transit, the Anarcho-Transhumanist Caucus, the Posthuman Rewilding Collective and the Global Consortium of Stateless Individuals. We can be your official podcast too, if you'll let us.",
     author: `@biocosmopolitan`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -27,12 +27,12 @@ const siteMetadata = {
             url: "/about",
         },
         {
-            name: "BLOG",
-            url: "/blog",
+            name: "PODCAST",
+            url: "/portfolio",
         },
         {
-            name: "PORTFOLIO",
-            url: "/portfolio",
+            name: "BLOG",
+            url: "/blog",
         },
         {
             name: "CONTACT",
@@ -63,11 +63,11 @@ const siteMetadata = {
     ],
     contact: {
         // leave empty ('') or false to hide form
-        // api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
-        // description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        // mail: "hi@akzhy.com",
-        // phone: "000-000-0000",
-        // address: "1234 \nLocation \nLocation",
+        api_url: "",
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+        mail: "hi@akzhy.com",
+        phone: "000-000-0000",
+        address: "1234 \nLocation \nLocation",
     },
     disqus: " ",
 }

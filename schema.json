@@ -13522,6 +13522,16 @@
               "defaultValue": null
             },
             {
+              "name": "rssURL",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
               "name": "shortname",
               "description": "",
               "type": {
@@ -14534,6 +14544,18 @@
                   "name": "SitePluginPluginOptionsGatsbyRemarkPlugins",
                   "ofType": null
                 }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "rssURL",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -16056,6 +16078,12 @@
             },
             {
               "name": "pluginCreator___pluginOptions___gatsbyRemarkPlugins___resolve",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginCreator___pluginOptions___rssURL",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -23825,6 +23853,12 @@
             },
             {
               "name": "pluginOptions___gatsbyRemarkPlugins___options___disableBgImage",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "pluginOptions___rssURL",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
