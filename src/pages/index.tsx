@@ -38,7 +38,7 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
             location={location}
         >
             <div className="video-container">
-              <video id="hero" width="100%" controls autoplay>
+              <video id="hero" width="100%" controls autoplay="True">
                  <source src="images/promo.mp4" type="video/mp4" />
                  Your browser does not support the video tag.
               </video>

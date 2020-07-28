@@ -23,8 +23,8 @@ module.exports = {
         }),
         themes: {
             dark: {
-                bg: "#141C1B",
-                bgalt: "#141C1B",
+                bg: "#111",
+                bgalt: "#111",
                 "color-default": "#eee",
                 "color-2": "#389FCB",
                 "color-1": "#11AD99",
@@ -45,7 +45,7 @@ module.exports = {
             link: "#389FCB",
             medium: "#cfd8dc",
             white: "#f5f5f5",
-            black: "#141C1B",
+            black: "#111",
             transparent: "rgba(0,0,0,0)",
             error: "#ef5350",
             success: "#6c9c54"
